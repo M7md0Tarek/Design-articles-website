@@ -1,0 +1,236 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    transition: 0.7s;
+    font-family: 'Gentium Book Plus', serif;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.continer{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+header{
+    
+    background-color: #35424a;
+    color: aliceblue;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #FF7700 3px solid;
+    
+
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 16px;
+}
+header a:hover{
+    color: #FF7700;
+    font-size: 18px;
+}
+ ul {
+    margin: 0%;
+    padding: 0%;
+}
+header li {
+    display: inline;
+    float: left;
+    padding: 0 20px 0 0;
+}
+header #branding{
+    float: left;
+}
+header #branding h1 {
+    margin: 0%;
+    padding: 0%;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header span {
+    color: #FF7700;
+}
+#showcass {
+    min-height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.284),rgba(13, 13, 13, 0.5));
+    background-image: url(../img/software-developer-working-laptop-home-office-programmer-working-develop-web-application_39704-4241.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: aliceblue;
+
+}
+#showcass h1 {
+    font-weight: bold;
+    font-size: 60px;
+    color: #FF7700;
+    margin: 10px;
+    padding-top: 140px;
+}
+#showcass p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+#newslatter{
+    padding: 10px;
+    
+    background-color: #35424a;
+    color: aliceblue;
+}
+#newslatter form {
+    float: right;
+}
+#newslatter h1 {
+    float: left;
+}
+#newslatter input[type="email"]{
+    padding: 5px;
+    height: 25px;
+    width: 250px;
+}
+.btn-1 {
+    background-color: #FF7700;
+    height: 40px;
+    width: 120px;
+    border-color: #FF7700;
+    color: aliceblue;
+}
+.btn-1:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+#boxes .box img {
+    width: 144px;
+    justify-content: center;
+
+}
+#boxes .continer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 50px 10px;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: aliceblue;
+    background-color: #FF7700;
+    
+}
+#main-aboutus{
+    width: 80%;
+    margin: auto;
+}
+#main-aboutus .text{
+    width: 60%;
+    margin: 20px;
+}
+#main-aboutus .text h1{
+    font-size: 24px;
+    margin: 6px;
+
+}
+#main-aboutus aside {
+    width: 30%;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    height: 50%;
+    background-color: #35424a;
+    color: aliceblue;
+    padding: 15px;
+}
+.coltext{
+    display: flex;
+    flex-direction: row;
+}
+.down-text{
+    background-color: #35424a;
+    color: aliceblue;
+    padding: 20px;
+}
+#main-aboutus img{
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+    padding-top: 15px;
+}
+.main-ser{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.main-ser article{
+    margin: 40px;
+
+}
+.main-ser h1 {
+    font-size: 30px;
+    color: #FF7700;
+    font-weight: bold;
+}
+.main-ser span {
+    font-weight: bold;
+    font-size: 18px;
+}
+.main-ser aside{
+    
+    background-color: #35424a;
+    width: 25%;
+    height: 0%;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.main-ser aside h2{
+    color: #FF7700;
+    font-size: 25px;
+    padding: 3px;
+}
+.main-ser aside label{
+    color: #FF7700;
+    font-size: 20px;
+    margin: 50px 0px;
+}
+.main-ser aside input{
+    background-color: transparent;
+    width: 250px;
+    height: 40px;
+    border: #FF7700 3px solid;
+    
+}
+.main-ser aside textarea{
+    background-color: transparent;
+    border: #FF7700 3px solid;
+}
+.btn {
+    background-color: #FF7700;
+    font-size: 18px;
+    color: aliceblue;
+    margin: 17px 0px;
+    width: 100px;
+    height: 40px;
+    border: #FF7700 3px solid;
+    cursor: pointer;
+}
+.btn:hover{
+    scale: 1.05;
+    box-shadow: 0 0 10px 0 rgba(240, 248, 255, 0.811) ;
+}
